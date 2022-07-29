@@ -35,5 +35,20 @@ public static void main(String []args) {
 	System.out.println(Lh.isEmpty());
 	System.out.println(Lh.size());
 	Lh.clear();
+	
+	//implement set as tree which makes set in sorted order.
+	HashSet<Integer> Th = new LinkedHashSet<>();
+	Th.add(7);
+	Th.add(2);
+	Th.add(77);
+	Th.add(8);
+	Th.add(1);
+	System.out.println(Th);
+	Th.remove(77);
+	System.out.println(Th);
+	System.out.println(Th.contains(7));
+	System.out.println(Th.isEmpty());
+	System.out.println(Th.size());
+	Th.clear();
 }
 }
